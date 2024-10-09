@@ -53,6 +53,7 @@ jobs:
 
     - name: Getting tools ready 
       run: |
+        apt install python3
         pip3 install twrpdtgen 
         sudo apt-get install cpio
     
