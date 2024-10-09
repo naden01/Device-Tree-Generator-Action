@@ -85,8 +85,8 @@ jobs:
 
     - name: Push to GitHub
       run: |
-          git config --global user.email "Samuel Kendall"
-          git config --global user.name "kinguser981@gmail.com"
+          git config --global user.email "naden01"
+          git config --global user.name "naden.irsyad01@gmail.com"
           cd ./device/*/*/
           git init
           git add *
